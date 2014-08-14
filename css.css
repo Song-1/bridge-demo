@@ -1,0 +1,24 @@
+.container {
+  margin: 10px;
+}
+
+.audios {
+  padding: 0;
+  list-style: none;
+}
+
+.audio {
+  background: #eee;
+  padding: 10px;
+  margin-bottom: 1px;
+}
+
+.audio button {
+  float: right;
+  margin: auto 0;
+}
+
+img {
+  width: 100%;
+  background: #eee;
+}
