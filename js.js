@@ -29,6 +29,7 @@ $(document).ready(function () {
   var audios = [];
   $('.audio').each(function () {
     var audio = {
+      id: $(this).data('id'),
       title: $(this).data('title'),
       largeImage: $(this).data('largeimg'),
       url: $(this).data('url'),
